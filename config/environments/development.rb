@@ -13,7 +13,9 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => 587,
     :user_name => 'apikey',
-    :password => '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'
+    :password => ENV["SENDGRID_API_KEY"],
+    authentication:       'plain',
+    enable_starttls_auto: true
    }
 
   # Do not eager load code on boot.
