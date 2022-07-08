@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.adviceslip.com/advice
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 07 Jul 2022 04:20:00 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 07 Jul 2022 04:20:05 GMT
+      Cache-Control:
+      - max-age=2
+      - max-age=600, private, must-revalidate
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Vary:
+      - Accept-Encoding
+      Content-Security-Policy:
+      - 'default-src ''self'';   script-src ''self'' data: ''unsafe-inline'' adviceslip.com
+        ssl.google-analytics.com www.google-analytics.com www.googletagmanager.com
+        storage.ko-fi.com;   connect-src ''self'';   style-src ''self'' ''unsafe-inline''
+        fonts.googleapis.com;   frame-src;   img-src * ;   object-src ''none'';   font-src
+        * ''self'' data:;'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Content-Length:
+      - '76'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: '{"slip": { "id": 26, "advice": "Don''t cross the streams."}}'
+  recorded_at: Thu, 07 Jul 2022 04:20:00 GMT
+- request:
+    method: get
+    uri: https://api.adviceslip.com/advice
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 07 Jul 2022 04:20:22 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 07 Jul 2022 04:20:27 GMT
+      Cache-Control:
+      - max-age=2
+      - max-age=600, private, must-revalidate
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Vary:
+      - Accept-Encoding
+      Content-Security-Policy:
+      - 'default-src ''self'';   script-src ''self'' data: ''unsafe-inline'' adviceslip.com
+        ssl.google-analytics.com www.google-analytics.com www.googletagmanager.com
+        storage.ko-fi.com;   connect-src ''self'';   style-src ''self'' ''unsafe-inline''
+        fonts.googleapis.com;   frame-src;   img-src * ;   object-src ''none'';   font-src
+        * ''self'' data:;'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Content-Length:
+      - '117'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: '{"slip": { "id": 219, "advice": "Try buying a coffee for the creator
+        of a free public API, now and then."}}'
+  recorded_at: Thu, 07 Jul 2022 04:20:22 GMT
+- request:
+    method: get
+    uri: https://api.adviceslip.com/advice
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 07 Jul 2022 04:22:10 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 07 Jul 2022 04:22:15 GMT
+      Cache-Control:
+      - max-age=2
+      - max-age=600, private, must-revalidate
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Vary:
+      - Accept-Encoding
+      Content-Security-Policy:
+      - 'default-src ''self'';   script-src ''self'' data: ''unsafe-inline'' adviceslip.com
+        ssl.google-analytics.com www.google-analytics.com www.googletagmanager.com
+        storage.ko-fi.com;   connect-src ''self'';   style-src ''self'' ''unsafe-inline''
+        fonts.googleapis.com;   frame-src;   img-src * ;   object-src ''none'';   font-src
+        * ''self'' data:;'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Content-Length:
+      - '71'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: '{"slip": { "id": 216, "advice": "Try making a list."}}'
+  recorded_at: Thu, 07 Jul 2022 04:22:10 GMT
+recorded_with: VCR 6.0.0
