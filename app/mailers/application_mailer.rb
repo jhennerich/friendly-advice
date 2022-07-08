@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'friendly@advice.io'
+  default from: 'MyMeds.Turing@gmail.com'
   layout 'mailer'
 end
